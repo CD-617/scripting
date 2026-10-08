@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.black-ops-one-regular, h1, h2{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orbitron, p, a, li, h3, h4 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #006241;
+}
+
+header{
+    background-color: #006241;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header img{
+    outline: 5px solid #000000;
+    outline-offset: 0px;
+    -webkit-box-shadow: 0px 5px 15px 10px black;
+    box-shadow: 0px 5px 15px 10px black;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    margin-bottom: 50px;
+}
+
+nav button{
+    background-color: #006241;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+h1, h2{
+    font-size: 35pt;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+#about{
+    max-width: 960px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    text-align: center;
+    font-size: 18pt;
+}
+
+#career{
+    max-width: 960px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    overflow: hidden;
+}
+
+#career p{
+    font-size: 15px;
+}
+
+#stats{
+    max-width: 960px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#accolades{
+    max-width: 960px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#moments{
+    max-width: 960px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#moments a{
+    color: white;
+}
+
+.imageleft{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    outline: 5px solid #FFFFFF;
+    outline-offset: 0px;
+}
+
+.imageright{
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    outline: 5px solid #FFFFFF;
+    outline-offset: 0px;
+}
+
+.clearer{
+    clear: both;
+}
+
+.container{
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    gap: 20px;  
+}
+
+.topSpace{
+    margin-top: 150px;
+}
+
+.botSpace{
+    padding: 10px;
+    margin-top: 250px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 15px 12px white;
+    box-shadow: 0px 0px 15px 12px white;
+}
