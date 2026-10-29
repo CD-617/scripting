@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+.bebas-neue-regular, h1, h2, h3, h4, h5, h6, nav{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded, p{
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    background-color: #24073D;
+    color: #C292F3;
+}
+
+#about{
+    background-color: #A068F0;
+    color: #24073D;
+}
+
+#hobbies{
+    background-color: #7558DB;
+    color: white;
+}
+
+#portfolio{
+    background-color: #A068F0;
+    color: #24073D;
+}
+
+footer, footer a{
+    margin-top: -25px;;
+    color: #C292F3;
+    background-color: #24073D;
+}
+
+nav{
+    background-color: #24073D;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+}
+
+#about img{
+    outline: 5px solid #000000;
+    outline-offset: 0px;
+    -webkit-box-shadow: 0px 5px 15px 10px black;
+    box-shadow: 0px 5px 15px 10px black;
+}
+
+#hobbies img{
+    outline: 3px solid white;
+    outline-offset: 0px;
+}
+
+#about p{
+    font-size: 14pt;
+}
+
+nav button{
+    padding: 10px;
+    background-color: #7558DB;
+    font-size: 12pt;
+}
+
+#hobbies h5{
+    padding-top: 7px;
+}
+
+nav a{
+    color: white;
+}
