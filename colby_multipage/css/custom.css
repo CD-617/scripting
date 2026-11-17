@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+.courgette-regular, h1, h2, h3, h4, h5, h6, nav{
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.margarine-regular, p, a{
+  font-family: "Margarine", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+    --bs-primary:#1a2d59;
+    --bs-primary-rgb:26, 45, 89;
+    --bs-secondary:#f6e600;
+    --bs-secondary-rgb:246, 230, 0;
+}
+
+nav{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#head h1{
+font-size: 100pt;
+}
+
+#homehead h3{
+    font-size: 30pt;
+}
+
+#homemain{
+    font-size: 17pt;
+}
+
+
+#geohead h3{
+    font-size: 30pt;
+}
+
+#geocontent{
+    font-size: 20pt;
+}
+
+#residents{
+    font-size: 20pt;
+}
+
+#economy{
+    font-size: 25pt;
+}
+
+#attractions{
+    font-size: 18pt;
+}
+
+#refinfo a{
+    font-size: 15pt;
+    color: black;
+}
